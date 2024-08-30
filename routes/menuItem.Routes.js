@@ -49,7 +49,7 @@ router.post('/' , async (req , res) =>{
       }
    
       else{
-       res.status(404).json({error:"invalid work type"})
+       res.status(404).json({error:"invalid Taste type"})
       }
     } catch (err) {
      console.log(err);
